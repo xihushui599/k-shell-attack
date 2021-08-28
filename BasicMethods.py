@@ -113,10 +113,10 @@ class BasicMethods:
         ]
 
 
-if __name__ == "__main__":
-    file = open(data_path + "hybrid" + ".pkl", "rb")
-    edges = pkl.load(file)
-    G = nx.Graph(edges)
-    # kshell = BasicMethods().k_shell(G)
-    # s = dict(sorted(kshell.items(), key=lambda x: x[1], reverse=True))
-    # print(s.values())
+# if __name__ == "__main__":
+#     file = open(data_path + "hybrid" + ".pkl", "rb")
+#     edges = pkl.load(file)
+#     G = nx.Graph(edges)
+#     kshell = BasicMethods().k_shell(G)
+#     s = dict(sorted(kshell.items(), key=lambda x: x[1], reverse=True))
+#     print(s.values())
